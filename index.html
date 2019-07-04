@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body> 
+
+<!--
+<script class="taskOne">
+    var a = 1, b = 1, c, d 
+    c = ++a; 
+    alert(c); // здесь в общем понятно, поскольку если бы оператор ++ стоял после переменной, то alert(c) выдал бы значение 1 
+    d = b++;
+    alert(d); //это в продолжение предыдущего примера. Значение, увеличенное на 1 вернулось в переменную d, но в текущем алерте значение не повышается
+    c = (2 + ++a);
+    alert(c);// вариант похож на 1 вариант, с той только разницей, что после первого примера в переменную а вернулась единичка, и теперь через инкремент перед переменной мы увеличиваем значение ещё на 1. То есть а в этом примере уже имеет значение 3 
+    d = (2 + b++);// значение +1 вернулось в переменную b, но в текущем примере из-за оператора-инкремента, который стоит после переменной значение по-прежнему 2. Поэтомуи результат 4  
+    alert(d);
+    alert(a);//после двух инкрементов в переменную вернулась двойкаю Поэтому значени 1+2 
+    alert(b);//переменную b мы тоже дважды инкрементировали 
+</script>
+-->  
+
+<!--
+<script class="taskTwo">
+    var a = 2;
+    var x = 1 + (a *=2);
+    alert(x);// результат 5. Посколько значение в скобках равно 4. *= - сокращает выражение в скобках, которое в развёрной форме выглядит вот так: (a = a * 2)
+</script>
+-->
+
+<!--<script class="taskThree">
+    var first = prompt('Введите число А');
+    var a = parseInt(first);
+    var second = prompt('Введите число В');
+    var b = parseInt(second);
+    if ((a >= 0) && (b >= 0)) { 
+        alert('Разность А и В равна' + ' ' + (a - b)); 
+    } else if ((a <= 0) && (b <= 0)) {
+        alert('Произведение А и В равно' + ' ' + (a * b));
+    } else if (((a >= 0) && (b <= 0)) || ((a <= 0) && (b >= 0))) {
+        alert('Сумма А и В равна' + ' ' + (a + b));
+    }
+</script> -->
+
+<!--как-то топорно получилось выполнить задание. Мне кажется правильное решение - через массив и через запрос pull чисел из массива. Правильно? 
+   <script class="taskFour">
+    var a = 8;
+    switch (a) {
+        case 0: 
+            console.log(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+            break;
+        case 1: 
+            console.log(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+            break;
+        case 2: 
+            console.log(2,3,4,5,6,7,8,9,10,11,12,13,14,15)
+            break;
+        case 3: 
+            console.log(3,4,5,6,7,8,9,10,11,12,13,14,15)
+            break;
+        case 4: 
+            console.log(4,5,6,7,8,9,10,11,12,13,14,15)
+            break;
+        case 5: 
+            console.log(5,6,7,8,9,10,11,12,13,14,15)
+            break;
+        case 6: 
+            console.log(6,7,8,9,10,11,12,13,14,15)
+            break;
+        case 7: 
+            console.log(7,8,9,10,11,12,13,14,15)
+            break;
+        case 7: 
+            console.log(7,8,9,10,11,12,13,14,15)
+            break;
+        case 8: 
+            console.log(8,9,10,11,12,13,14,15)
+            break;
+        case 9: 
+            console.log(9,10,11,12,13,14,15)
+            break;
+        case 10: 
+            console.log(10,11,12,13,14,15)
+            break;
+        case 11: 
+            console.log(11,12,13,14,15)
+            break;
+        case 12: 
+            console.log(12,13,14,15)
+            break;
+        case 13: 
+            console.log(13,14,15)
+            break;
+        case 14: 
+            console.log(14,15)
+            break;
+        case 15: 
+            console.log(15)
+            break;
+    }
+
+</script>-->
+
+<!--<script class="taskFive">
+    function sum (a,b) {
+        return a + b;
+    }
+    
+    function subtract (a,b) {
+        return a - b;
+    }
+    
+    function multiply (a,b) {
+        return a * b;
+    }
+    
+    function division (a,b) {
+        return a / b;
+    }
+</script>-->
+
+<!-- честно говоря не совсем понял, зачем и как использовать строку с названием операции, если через цикл она и сам выполняется. Может, не до конца понял задание....
+<script class="taskSix">
+var first = prompt('Введите число А');
+var arg1 = parseInt(first);
+var second = prompt('Введите число В');
+var arg2 = parseInt(second);
+    function mathOperations (arg1,arg2) {    
+        if ((arg1 >= 0) && (arg2 >= 0)) { 
+            return arg1 - arg2; 
+        } else if ((arg1 <= 0) && (arg2 <= 0)) {
+            return arg1 * arg2;
+        } else if (((a >= 0) && (b <= 0)) || ((a <= 0) && (b >= 0))) {
+            return arg1 + arg2;
+        }
+    }
+    alert(mathOperations(arg1,arg2));
+</script>-->
+
+<article class="taskSeven">
+    <a href="https://habr.com/ru/company/ruvds/blog/337732/">о сравнении null  с 0 мне очень понравился вот этот материал</a>
+</article>
+
+<article class="taskEight">
+    <a href="https://learn.javascript.ru/recursion">только здесь понял задание про рекурсию</a>
+</article>
+</body>
+
+</html>
